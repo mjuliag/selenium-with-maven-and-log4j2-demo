@@ -11,6 +11,14 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
+/*
+To run the different profiles from the terminal we run the command mvn -P{profilename}, for example: mvn -Pregression
+This profiles need to be properly configured in the pom.xml file. If we run the 'mvn test' command, all the tests are
+going to be executed.
+This profiles need to be properly configured in the pom.xml file.
+We can find the TestNG reports inside target > surefire-reports folder and we can also delete de target folder with
+'mvn clean' command.
+ */
 public class TestNG_Test {
     private WebDriver driver;
     private String baseUrl;

@@ -1,25 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="21166" started-at="2020-01-14T17:52:11Z" finished-at="2020-01-14T17:52:32Z">
+  <suite name="Command line suite" duration-ms="20220" started-at="2020-01-20T15:04:58Z" finished-at="2020-01-20T15:05:18Z">
     <groups>
+      <group name="SUV">
+        <method signature="TestNG_Grouping.BMWX3()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="BMWX3" class="com.juliamavenpractice.test.TestNG_Grouping"/>
+      </group> <!-- SUV -->
+      <group name="Audi">
+        <method signature="TestNG_Grouping.AudiA6()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="AudiA6" class="com.juliamavenpractice.test.TestNG_Grouping"/>
+      </group> <!-- Audi -->
+      <group name="BMW">
+        <method signature="TestNG_Grouping.BMW3Series()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="BMW3Series" class="com.juliamavenpractice.test.TestNG_Grouping"/>
+        <method signature="TestNG_Grouping.BMWX3()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="BMWX3" class="com.juliamavenpractice.test.TestNG_Grouping"/>
+      </group> <!-- BMW -->
+      <group name="Sedan">
+        <method signature="TestNG_Grouping.AudiA6()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="AudiA6" class="com.juliamavenpractice.test.TestNG_Grouping"/>
+        <method signature="TestNG_Grouping.BMW3Series()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="BMW3Series" class="com.juliamavenpractice.test.TestNG_Grouping"/>
+        <method signature="TestNG_Grouping.HondaAccord()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="HondaAccord" class="com.juliamavenpractice.test.TestNG_Grouping"/>
+      </group> <!-- Sedan -->
+      <group name="Honda">
+        <method signature="TestNG_Grouping.HondaAccord()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="HondaAccord" class="com.juliamavenpractice.test.TestNG_Grouping"/>
+      </group> <!-- Honda -->
     </groups>
-    <test name="Surefire test" duration-ms="21166" started-at="2020-01-14T17:52:11Z" finished-at="2020-01-14T17:52:32Z">
-      <class name="com.juliamavenpractice.test.TestNG_Test">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.juliamavenpractice.test.TestNG_Test@51e5fc98]" name="beforeClass" is-config="true" duration-ms="17899" started-at="2020-01-14T14:52:11Z" finished-at="2020-01-14T14:52:29Z">
+    <test name="Command line test" duration-ms="20220" started-at="2020-01-20T15:04:58Z" finished-at="2020-01-20T15:05:18Z">
+      <class name="com.juliamavenpractice.test.TestNG_Grouping">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="beforeClass" is-config="true" duration-ms="6" started-at="2020-01-20T12:04:58Z" finished-at="2020-01-20T12:04:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="fillBasicInfo()[pri:0, instance:com.juliamavenpractice.test.TestNG_Test@51e5fc98]" name="fillBasicInfo" duration-ms="2288" started-at="2020-01-14T14:52:29Z" finished-at="2020-01-14T14:52:32Z">
+        <test-method status="PASS" signature="AudiA6()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="AudiA6" duration-ms="1" started-at="2020-01-20T12:04:58Z" finished-at="2020-01-20T12:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AudiA6 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-01-20T12:04:58Z" finished-at="2020-01-20T12:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-01-20T12:04:58Z" finished-at="2020-01-20T12:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-01-20T12:04:58Z" finished-at="2020-01-20T12:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="BMW3Series()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="BMW3Series" duration-ms="0" started-at="2020-01-20T12:04:58Z" finished-at="2020-01-20T12:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMW3Series -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-20T12:04:58Z" finished-at="2020-01-20T12:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-01-20T12:04:58Z" finished-at="2020-01-20T12:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="BMWX3()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="BMWX3" duration-ms="0" started-at="2020-01-20T12:04:58Z" finished-at="2020-01-20T12:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMWX3 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-01-20T12:04:58Z" finished-at="2020-01-20T12:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-20T12:04:58Z" finished-at="2020-01-20T12:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="HondaAccord()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="HondaAccord" duration-ms="0" started-at="2020-01-20T12:04:58Z" finished-at="2020-01-20T12:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HondaAccord -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-01-20T12:04:58Z" finished-at="2020-01-20T12:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.juliamavenpractice.test.TestNG_Grouping@5e316c74]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-20T12:04:58Z" finished-at="2020-01-20T12:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.juliamavenpractice.test.TestNG_Grouping -->
+      <class name="com.juliamavenpractice.test.TestNG_Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.juliamavenpractice.test.TestNG_Test@5276e6b0]" name="beforeClass" is-config="true" duration-ms="17278" started-at="2020-01-20T12:04:58Z" finished-at="2020-01-20T12:05:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="fillBasicInfo()[pri:0, instance:com.juliamavenpractice.test.TestNG_Test@5276e6b0]" name="fillBasicInfo" duration-ms="2083" started-at="2020-01-20T12:05:16Z" finished-at="2020-01-20T12:05:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillBasicInfo -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.juliamavenpractice.test.TestNG_Test@51e5fc98]" name="afterClass" is-config="true" duration-ms="970" started-at="2020-01-14T14:52:32Z" finished-at="2020-01-14T14:52:32Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.juliamavenpractice.test.TestNG_Test@5276e6b0]" name="afterClass" is-config="true" duration-ms="837" started-at="2020-01-20T12:05:18Z" finished-at="2020-01-20T12:05:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.juliamavenpractice.test.TestNG_Test -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
 </testng-results>
